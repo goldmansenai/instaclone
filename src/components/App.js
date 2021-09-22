@@ -1,8 +1,11 @@
 import '../styles/App.scss';
+import Navigation from './Navigation.js'
 
 function App() {
   return (
-    <div className="App">Hello World</div>
+    <div className="App">
+      <Navigation />
+    </div>
   );
 }
 
