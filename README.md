@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Crud em ASP.NET Core no modelo MVC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Status do projeto
+<h2 align="center"> 
+	:white_check_mark: Crud ASP.NET Core MVC 🚀 Completo :white_check_mark:
+</h2>
 
-## Available Scripts
+## Sumário
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tecnologias](#Tecnologias)
+   * [Requisitos](#Requisitos)
+   * [Iniciando](#Iniciando)
+   * [Features](#Features)
+<!--te-->
 
-In the project directory, you can run:
+## Sobre
+<h4> Projeto seguindo a documentação da microsoft para a criação de um gerenciador de filmes, no modelo Crud (Criar, Editar, Deletar e Visualizar) em arquitetura MVC </h4>
 
-### `yarn start`
+## Tecnologias
+![badge](https://img.shields.io/badge/C%23-C%20Sharp-7159c1)
+![badge](https://img.shields.io/badge/.NET-ASP.NET%20Core-7159c1)
+![badge](https://img.shields.io/badge/JS-JavaScript-7159c1)
+![badge](https://img.shields.io/badge/Docker-Dockerfile-7159c1)
+![badge](https://img.shields.io/badge/AWS-Ubuntu%20Server-7159c1)
+![badge](https://img.shields.io/badge/Docker-Dockerfile-7159c1)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requisitos
+:hammer_and_wrench: Para realização desse projeto foram utilizados:
+- [.NET](https://dotnet.microsoft.com/download)
+- [GIT](https://git-scm.com/)
+- [Docker](https://www.docker.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Iniciando
+### Lembrando que para conseguir editar esse projeto será preciso do Git, SDK do dotnet e um editor de código fonte (VScode)
 
-### `yarn test`
+Clone o repositório em sua máquina
+```bash
+$ git clone <https://github.com/goldmansenai/ASP.NET-Core-Mvc>
+```
+Entre no diretório clonado
+```bash
+$ cd ASP.NET-Core-MVC
+```
+Instale as dependências
+```bash
+$ dotnet build
+```
+Rode o servidor local, e no navegador coloque localhost:5001 após o comando:
+```bash
+$ dotnet run
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Features
+- [x] HomePage, Privacy policy e Error
+- [x] Hello World
+- [x] Menu para gerenciar filmes
+- [x] Telas para Criar, editar, detalhar e excluir filmes
+- [x] Barra de pesquisa para filmes
+- [x] Campo para filtar categoria dos filmes
+- [ ] Gerenciamento de séries
