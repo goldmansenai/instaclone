@@ -1,8 +1,8 @@
-# Crud em ASP.NET Core no modelo MVC
+# Clone - UI
 
 ## Status do projeto
 <h2 align="center"> 
-	:white_check_mark: Crud ASP.NET Core MVC 🚀 Completo :white_check_mark:
+	:white_check_mark: Instaclone 🚀 Completo :white_check_mark:
 </h2>
 
 ## Sumário
@@ -15,47 +15,44 @@
 <!--te-->
 
 ## Sobre
-<h4> Projeto seguindo a documentação da microsoft para a criação de um gerenciador de filmes, no modelo Crud (Criar, Editar, Deletar e Visualizar) em arquitetura MVC </h4>
+<h4> Interface do usuário estática feita em ReactJs pegando o instagram como modelo e referência, com ele pretendemos ampliar os conceitos a respeito de front-end e React </h4>
 
 ## Tecnologias
-![badge](https://img.shields.io/badge/C%23-C%20Sharp-7159c1)
-![badge](https://img.shields.io/badge/.NET-ASP.NET%20Core-7159c1)
-![badge](https://img.shields.io/badge/JS-JavaScript-7159c1)
-![badge](https://img.shields.io/badge/Docker-Dockerfile-7159c1)
-![badge](https://img.shields.io/badge/AWS-Ubuntu%20Server-7159c1)
-![badge](https://img.shields.io/badge/Docker-Dockerfile-7159c1)
+![badge](https://img.shields.io/badge/JS-ReactJS-yellow)
+![badge](https://img.shields.io/badge/CSS-Sass(SCSS)-ff69b4)
+![badge](https://img.shields.io/badge/JS-JSX-yellow)
+![badge](https://img.shields.io/badge/Netlify-Deploy-blue)
 
 ## Requisitos
 :hammer_and_wrench: Para realização desse projeto foram utilizados:
-- [.NET](https://dotnet.microsoft.com/download)
+- [NODE](https://nodejs.org/en/)
 - [GIT](https://git-scm.com/)
-- [Docker](https://www.docker.com/)
+- [VScode](https://code.visualstudio.com/)
 
 ## Iniciando
-### Lembrando que para conseguir editar esse projeto será preciso do Git, SDK do dotnet e um editor de código fonte (VScode)
+### Lembrando que para conseguir editar esse projeto será preciso do Node e um editor de código fonte (VScode)
 
 Clone o repositório em sua máquina
 ```bash
-$ git clone <https://github.com/goldmansenai/ASP.NET-Core-Mvc>
+$ git clone https://github.com/goldmansenai/instaclone
 ```
 Entre no diretório clonado
 ```bash
-$ cd ASP.NET-Core-MVC
+$ cd instaclone
 ```
 Instale as dependências
 ```bash
-$ dotnet build
+$ npm
 ```
 Rode o servidor local, e no navegador coloque localhost:5001 após o comando:
 ```bash
-$ dotnet run
+$ npm start
 ```
 
 ## Features
-- [x] HomePage, Privacy policy e Error
-- [x] Hello World
-- [x] Menu para gerenciar filmes
-- [x] Telas para Criar, editar, detalhar e excluir filmes
-- [x] Barra de pesquisa para filmes
-- [x] Campo para filtar categoria dos filmes
-- [ ] Gerenciamento de séries
+- [x] Interface semelhante a do Instagram
+- [x] Horizontal Scroll nos stories
+- [x] API's para avatares e imagens randômicas
+- [x] Barra de pesquisa e menu com itens para navegação (estáticos)
+- [ ] Integração com backend
+- [ ] Links dinâmicos
