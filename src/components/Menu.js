@@ -3,6 +3,8 @@ import {ReactComponent as Home} from '../images/home.svg'
 import {ReactComponent as Inbox} from '../images/inbox.svg'
 import {ReactComponent as Explore} from '../images/explore.svg'
 import {ReactComponent as Notifications} from '../images/notifications.svg'
+import image from "../images/profile.jpg"
+import ProfileIcon from './ProfileIcon';
 
 
 function Menu(){
@@ -12,7 +14,7 @@ function Menu(){
             <Inbox className="icon"/>
             <Explore className="icon"/>
             <Notifications className="icon"/>
-            {/* Icone de perfil */}
+            <ProfileIcon iconSize="small" image={image}/> {/* se adicionarmos storyBorder={true} ao redor do perfil haverá uma borda colorida */}
         </div>  
     );
 }
