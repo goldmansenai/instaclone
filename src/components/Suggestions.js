@@ -9,11 +9,11 @@ function Suggestions(){
                 <a href="/">Veja tudo</a>
             </div>
 
-            <Profile caption="Followed by mapvault + 3 more" urlText="Follow" iconSize="medium" captionSize="small" storyBorder={true}/>
-            <Profile caption="Followed by someone + 2 more" urlText="Follow" iconSize="medium" captionSize="small" />
-            <Profile caption="Followed by Hiko + 1 more" urlText="Follow" iconSize="medium" captionSize="small" />
-            <Profile caption="Followed by DoubleD" urlText="Follow" iconSize="medium" captionSize="small" storyBorder={true}/>
-            <Profile caption="Followed by Bugs + 7 more" urlText="Follow" iconSize="medium" captionSize="small" />
+            <Profile caption="Seguido(a) por mapvault e mais 3 pessoas" urlText="Follow" iconSize="medium" captionSize="small" storyBorder={true}/>
+            <Profile caption="Seguido(a) por someone e mais 2 pessoas" urlText="Follow" iconSize="medium" captionSize="small" />
+            <Profile caption="Seguido(a) por Hiko e mais 1 pessoa" urlText="Follow" iconSize="medium" captionSize="small" />
+            <Profile caption="Seguido(a) por DoubleD" urlText="Follow" iconSize="medium" captionSize="small" storyBorder={true}/>
+            <Profile caption="Seguido(a) por Bugs e mais 7 pessoas" urlText="Follow" iconSize="medium" captionSize="small" />
         </div>
     )
 }
