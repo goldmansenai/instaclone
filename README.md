@@ -34,19 +34,19 @@
 
 Clone o repositório em sua máquina
 ```bash
-$ git clone https://github.com/goldmansenai/instaclone
+git clone https://github.com/goldmansenai/instaclone
 ```
 Entre no diretório clonado
 ```bash
-$ cd instaclone
+cd instaclone
 ```
 Instale as dependências
 ```bash
-$ npm
+npm install
 ```
 Rode o servidor local, e no navegador coloque localhost:5001 após o comando:
 ```bash
-$ npm start
+npm start
 ```
 
 ## Features
