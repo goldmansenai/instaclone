@@ -44,7 +44,7 @@ Instale as dependências
 ```bash
 npm install
 ```
-Rode o servidor local, e no navegador coloque localhost:5001 após o comando:
+Após o comando "npm start" o próprio react irá abrir a página local do aplicativo no navegador
 ```bash
 npm start
 ```
